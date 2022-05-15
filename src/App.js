@@ -1,5 +1,12 @@
+import { RecoilRoot } from 'recoil';
+import Main from './Main';
+
 function App() {
-  return <div className='App'></div>;
+  return (
+    <RecoilRoot>
+      <Main />
+    </RecoilRoot>
+  );
 }
 
 export default App;
